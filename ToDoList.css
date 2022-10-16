@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; 
+    padding:0;
+}
+body{
+    background: linear-gradient(rgb(0, 0, 0),rgba(234, 0, 255, 0.178));
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.container{
+    
+    max-width:450px;
+    width: 100%;
+    display: block;
+    margin-left: 33rem;
+    margin-top: 13rem;
+    background-color:pink;
+}
+
+
+.header{
+ margin: 0px;
+ size: 4px;;
+ padding-top: 24px;
+ width: 50 px;
+ height: 2cm;
+ text-align: center;
+ background-color: rgba(243, 19, 86, 0.503);
+ 
+}
+
+.input{
+    display: block;
+    padding: 20px;
+    border-radius: 2px;
+    text-align: center;
+}
+.input input{
+    padding: 8px;
+    width: 70%;
+}
+#addbtn{
+    padding: 8px;
+    width: 50px;
+    background-color:rgb(118, 243, 76);
+    color: red;
+   /* opacity: 0.6;
+    pointer-events: none;*/
+}
+
+#addbtn:hover{
+    background:rgba(215, 151, 240, 0.859);
+}
+.list{
+    
+    text-align: center;
+    margin: 1px;
+    background-color: rgba(252, 207, 251, 0.852);
+    list-style: none;
+    
+}
+.list ul {
+    margin: 5px;
+    padding: 5px;
+    list-style: none;
+}
+.list li{
+    background-color: rgb(241, 248, 246);
+    padding:10px;
+    margin: 10px;
+    position: relative;
+}
+.list li span{
+    background-color: rgb(196, 243, 76);
+    color: #fff;
+    size: 20px;
+    position: absolute ;
+    width: 40px;
+    height: 30px;
+    right: -0.05px;
+}
+.list li span:hover{
+    background-color: rgb(51, 4, 95);
+}
+.container .list{
+    overflow-y:auto;
+    max-height: 200px;
+}
+.butn{
+    background-color:rgb(19, 243, 94);
+    text-align: center;
+    padding: 10px;
+}
+/*#btn1:hover {  
+    background-color:rgb(76, 93, 243);   
+}*/
+#btn2:hover {
+    background-color:rgb(243, 76, 185);
+    
+}
+/*#btn1{
+    font-size: 15px;
+    padding: 6px;
+    width: 200px;
+    color:black;
+}*/
+#btn2{
+    font-size: 15px;
+    padding: 6px;
+    margin: 5px 5px 5px 20px;
+    right: -40px;
+    width: 100px;
+    color: black;
+}
